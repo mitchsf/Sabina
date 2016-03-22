@@ -39,12 +39,10 @@ Individual tube boards are on the Zev-1 page. Only the center digit needs a deci
 
 IN-14, Z570M Series, IN-12B, IN-12BLong, and IN-8-2, are the individual tube boards. Fifteen are required, obviously. The long version IN-12B board rasises tubes by about 10cm. Cut off the tabs for mounting neons and RGB LEDs, if you use this board.
 
-TimerThree is here, modified to work with the 1284P and Bobuino/Skinny Bob. Other libraries are easily found. Use the original Bounce library included with Bounce2, not Bounce2. I changed the name of the MCP23017 library, to MCP23017 because it was too long for me. It is from Adafruit.
-
 Files with the extension .ai are the designs for the acrylic reflectors. IN-12B tubes use pins easily found on ebay, no acrylic reflectors. Reflectors can be ordered in the USA from Pololu, and at lower cost but obviously longer delivery times from Asian supplies such as Seeed Studio.
 
-Take a look at Zev-1, my seven digit nixie clock design, here on Github. Zev-2, an IN-18 tube version, is also here, and Zev-2-8, an 8 digit, IN-18 clock with RF.
+Take a look at Zev, my seven and eight digit nixie clock designs, here on Github. Zev-1-7 uses a variety of small tubes same as Sabina, and Zev-2-7, an IN-18 tube version, uses IN-18 tubes. Zev-1-8 and Zev-2-8 are eight digit versions that include nRF24L01+ RF. 
+
+Hex files are used to program the Atmel 1284P chip. Use AVRDude or similar programming tool.
 
 Mitch Feig
-
-Feel free to improve the hardware and software.
